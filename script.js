@@ -64,7 +64,7 @@ function elfMorse(message) {
   }
 
   // Grąžintos išanalizuotos raidės iš 'function toHolidayMorse()' sujungiamos ir parodoma visa konvertuota žinutė
-  return convertedMessage.join("");
+  return convertedMessage.join(" ");
 }
 
 console.log(elfMorse("Marry"));
